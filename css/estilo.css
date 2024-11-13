@@ -13,14 +13,12 @@ body{
 #container{
     width: 750px;
     margin: 0 auto;
-    /*border: 1px solid red;*/
 }
 
 #topo {
     height: 150px;
     background: url(../images/detalhe-topo.png) no-repeat right top;
     padding-top: 25px;
-    /*border: 1px solid red;*/
 }
 
 .logo{
@@ -136,6 +134,11 @@ h2{
     margin-top: 5px;
 }
 
+.leia{
+    text-decoration: none;
+    color: #de003e;
+}
+
 /*Formatar menus laterais*/
 
 #lateral ul a {
@@ -216,6 +219,7 @@ h3{
 
 #lista-noticias li a{
     text-decoration: none;
+    color: #000;
 }
 
 #lista-noticias li a h3{
@@ -245,4 +249,5 @@ h3{
     width: 750px;
     margin: 0 auto;
     color: #fff;
+    text-align: center;
 }
